@@ -31,6 +31,7 @@ docker run -it --name mycounter word-counter
 
 To check the file inside the container:
  ```bash
+docker start mycounter
 docker exec -it mycounter bash
 cat word_count.txt
 ```
