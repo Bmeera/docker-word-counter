@@ -1,0 +1,17 @@
+# File: word_counter.py
+
+# Define the filename where results will be saved
+filename = "word_count.txt"
+
+# Get user input
+text = input("Enter a sentence: ")
+
+# Count the number of words
+word_count = len(text.split())
+
+# Save the result in a text file
+with open(filename, "w") as f:
+    f.write(f"Word count: {word_count}\n")
+
+print(f"Word count saved to {filename}")
+
