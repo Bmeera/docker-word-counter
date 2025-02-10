@@ -50,7 +50,7 @@ cat ~/word_counter/data/word_count.txt
 ```
 # 🐋 Docker Concepts Used
 
-- Base Image: Uses python:3.9-slim for a lightweight container.
+- Base Image: A base image is the foundation of a Docker container. Uses python:3.9-slim for a lightweight container.
 - Containerization: App runs in an isolated Docker environment.
 - Persistent Storage: Docker volumes save data permanently.
 - Tagging & Versioning: Version 1.0 tagged as:
