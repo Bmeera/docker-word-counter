@@ -61,9 +61,6 @@ docker tag word-counter word-counter:1.0
 
 # 📸 Screenshots
 
-![screenshot1](https://github.com/user-attachments/assets/8db49c6d-ddad-4559-8c42-f99c10523a9e)
-
-
 ![screenshot2](https://github.com/user-attachments/assets/986729db-823e-4a74-bf33-58e65e834e09)
 
 
