@@ -36,9 +36,15 @@ docker exec -it mycounter bash
 cat /app/data/word_count.txt
 ```
 
-To check the file outside the container at ~/word_counter/data/word_count.txt:
+To check the file outside the container
 
-Run:
+First, exit the container
+
+```bash
+exit
+```
+Then, run:
+
 ```bash
 cat ~/word_counter/data/word_count.txt
 ```
