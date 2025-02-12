@@ -20,12 +20,12 @@ docker build -t word-counter .
 ```
 This creates a Docker image named word-counter.
 
-3. Run the container interactively:
+3. Run the container interactively and with volume mounting:
  ```bash
-docker run -it --name mycounter word-counter
+docker run -it --name mycounter -v ~/word_counter/data:/app/data word-counter
 ```
 ✅ You will be prompted to enter a sentence.
-✅ The program will count the words and save the result in word_count.txt inside the container.
+✅ The program will count the words and save the result in word_count.txt.
 
 4. Check the Saved File
 
@@ -33,23 +33,29 @@ To check the file inside the container:
  ```bash
 docker start mycounter
 docker exec -it mycounter bash
-cat word_count.txt
+cat /app/data/word_count.txt
 ```
-## 📂 Persistent Storage (Volume Mounting)
 
-By default, the file is deleted when the container stops. To save the results permanently, use a Docker volume:
-```bash
-docker run -it --name mycounter -v ~/word_counter/data:/app/data word-counter
-```
-✅ Now, word_count.txt will be saved on your local machine at:
-```bash
-~/word_counter/data/word_count.txt
-```
-To verify, run:
+To check the file outside the container at ~/word_counter/data/word_count.txt:
+
+Run:
 ```bash
 cat ~/word_counter/data/word_count.txt
 ```
+
+# 🐋 Usage
+1. Input a sentence
+2. Press the enter key
+3. The word count of the sentence is displayed and saved to word_count.txt
+
+Example:
+1. Input a sentence: I am an amazing Software Engineer
+2. Press the enter key
+3. The word count is: 6
+4. The word count of the sentence is displayed and saved to word_count.txt
+   
 # 🐋 Docker Concepts Used
+The following Docker concepts were used:
 
 - Base Image: A base image is the foundation of a Docker container. Uses python:3.9-slim for a lightweight container.
 - Containerization: App runs in an isolated Docker environment.
