@@ -61,7 +61,7 @@ Example:
 4. The word count of the sentence is displayed and saved to word_count.txt
    
 # 🐋 Docker Concepts Used
-The following Docker concepts were used:
+The following Docker concepts are used:
 
 - Base Image: A base image is the foundation of a Docker container. Uses python:3.9-slim for a lightweight container.
 - Containerization: App runs in an isolated Docker environment.
