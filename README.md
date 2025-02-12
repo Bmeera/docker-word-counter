@@ -49,7 +49,7 @@ Then, run:
 cat ~/word_counter/data/word_count.txt
 ```
 
-# 🐋 Usage
+# ▶️ Usage
 1. Input a sentence
 2. Press the enter key
 3. The word count of the sentence is displayed and saved to word_count.txt
