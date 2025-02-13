@@ -96,6 +96,9 @@ docker rm mycounter
 Feel free to fork this repository and contribute improvements!
 If you found this useful, ⭐ Star this repo!
 
+# 👩‍💻 Author
+[Bmeera](https://github.com/bmeera)
+
 
 
 
