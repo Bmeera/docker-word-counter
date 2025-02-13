@@ -25,7 +25,8 @@ This creates a Docker image named word-counter.
 docker run -it --name mycounter -v ~/word_counter/data:/app/data word-counter
 ```
 ✅ You will be prompted to enter a sentence.
-✅ The program will count the words and save the result in word_count.txt.
+
+✅ The program will count the words in the sentence, display it, and save the result in word_count.txt.
 
 4. Check the Saved File
 
