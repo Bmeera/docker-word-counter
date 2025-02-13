@@ -1,7 +1,7 @@
 # Word Counter in Docker
 
 ## 📌 Overview
-This is a simple Python console application that counts words in a sentence and saves the result in a file. It demonstrates **Docker containerization concepts**, including:
+This is a Python console application that counts words in a sentence and saves the result in a file. It demonstrates **Docker containerization concepts**, including:
 
 - Building and running containers
 - Using Docker volumes for persistent data
