@@ -75,8 +75,10 @@ docker tag word-counter word-counter:1.0
 
 # 📸 Screenshots
 
-![screenshot2](https://github.com/user-attachments/assets/986729db-823e-4a74-bf33-58e65e834e09)
+![screenshot1](https://github.com/user-attachments/assets/f3dfcdb9-d33e-4425-b11d-b5d74b460ddb)
 
+
+![screenshot2](https://github.com/user-attachments/assets/ceec931f-7617-4224-90ac-2386d5422352)
 
 # ❌ How to Stop & Remove the Container
 
